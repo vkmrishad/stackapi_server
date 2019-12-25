@@ -164,7 +164,8 @@ CACHE_MIDDLEWARE_KEY_PREFIX = ''
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
+    'stackapi-server.herokuapp.com'
 )
 
 # Activate Django-Heroku.
