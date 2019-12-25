@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 
@@ -165,3 +166,6 @@ CORS_ORIGIN_WHITELIST = (
     'localhost',
     '127.0.0.1'
 )
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())

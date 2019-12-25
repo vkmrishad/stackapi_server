@@ -1,0 +1,1 @@
+web: gunicorn stack_search.wsgi --log-file -
